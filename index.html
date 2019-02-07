@@ -9,7 +9,13 @@
 </head>
 <body>
     <!-- // Intro -->
-    <header>
+    <header id="about">
+        <nav class="display">
+          <a href="#about">About</a>
+          <a href="#work">Work Experience</a>
+          <a href="#education">Education</a>
+          <a href="#contact">Contact</a>
+        </nav>
         <div class="content-wrap">
         <img class="profile-img col-narrow" src="/yda-resume/images/yda_work.jpg" alt="Your Name">
         <div class="col-wide">
@@ -18,11 +24,12 @@
         <p>Add your profile summary here. You can have several paragraphs or add <a href="#">links</a>.</p>
         </div>
         </div>
+        <a href="resume.pdf" class="btn download" download>Download PDF</a>
     </header>
     
     <main> 
         <!-- // Work Experience -->
-        <section class="work">
+        <section id="work" class="work">
             <div class="content-wrap">
                 <h2>Work Experience</h2>
 
@@ -34,10 +41,10 @@
                 </div>
                 <!-- Add as many paragraphs as you need. -->
                 <div class="col-wide job-description">
-                    <p>Job summary.</p>
+                    <!-- <p>Job summary.</p> -->
 
                     <!-- This list can be deleted if you don't want to use it. -->
-                    <p>Optional list:</p>
+                    <p>Key responsibilities:</p>
                     <ul>
                         <li>Software development for process control using IEC 61131-3 languages (ST, IL, FBD, SFC, LD) for PLC Simatic S5, S7, 1200... Siemens;</li>
                         <li>Development of visualization’s systems in Simatic WinCC, WinCC Flexible;</li> 
@@ -54,10 +61,10 @@
                 </div>
                 <!-- Add as many paragraphs as you need. -->
                 <div class="col-wide job-description">
-                    <p>Job summary.</p>
+                    <!-- <p>Job summary.</p> -->
 
                     <!-- This list can be deleted if you don't want to use it. -->
-                    <p>Optional list:</p>
+                    <p>Key responsibilities:</p>
                     <ul>
                         <li>Software development for process control manufacturing procedure of yeast making with using PLC Simatic S7-400 Siemens;</li> 
                         <li>Development of visualization’s systems in Simatic WinCC;</li>
@@ -67,29 +74,38 @@
                     </ul>
                     <!-- end of Job Details block. -->
                 </div>
+                <div class="col-narrow">
+                    <h3>Automation Engineer</h3>
+                    <p class="uppercase">JSC "Tyazhpromelectroproect"</p>
+                    <p>Feb 2006 – Dec 2007</p>
+                </div>
+                <!-- Add as many paragraphs as you need. -->
+                <div class="col-wide job-description">
+                    <!-- <p>Job summary.</p> -->
+
+                    <!-- This list can be deleted if you don't want to use it. -->
+                    <p>Key responsibilities:</p>
+                    <ul>
+                        <li>Software development for industrial process control using PLC Simatic S7-300, S7-400 Siemens;</li> <li>Creation of visualization’s systems in Simatic WinCC and Simatic WinCC Flexible;</li>
+                        <li>Development of electrical schematic diagrams, cable journals, lines coupling, layout design of cabinet units;</li>
+                        <li>Development of electric power supply systems.</li>
+                    </ul>
+                </div>
             </div>
         </section>
 
 
         <!-- // Education -->
-        <section class="education">
+        <section id="education" class="education">
             <div class="content-wrap">
             <h2>Education</h2>
 
             <!-- School details: copy this whole block to add more schools. -->
-            <h3>School name, year you attended</h3>
-            <p>Designation received</p>
+            <h3>National Technical University “Kharkov Polytechnic Institute” 2001 – 2007</h3>
+            <p>Master of electromechanics</p>
             
             <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
-            <!-- End of school details. -->
-                
-            <!-- School details: copy this whole block to add more schools. -->
-            <h3>School name, year you attended</h3>
-            <p>Designation received</p>
-            
-            <!-- Add as many paragraphs as you need. -->
-            <p>Summary.</p>
+            <p>Automated electromechanical systems and drive</p>
             <!-- End of school details. -->
                 
             <!-- School details: copy this whole block to add more schools. -->
@@ -104,7 +120,7 @@
     </main>
     
     <!-- // Footer & contact info -->
-    <footer>
+    <footer id="contact">
         <div class="content-wrap">
         <h2>Let's Keep in Touch!</h2>
         
