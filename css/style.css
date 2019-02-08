@@ -46,15 +46,6 @@ a:hover {
     padding: 60px 50px;
     overflow: hidden;
 }
-.col-narrow {
-    width: 35%;
-    float: left;
-}
-.col-wide {
-    width: 62%;
-    float: left;
-    padding-left: 3%;
-}
 .uppercase {
     text-transform: uppercase;
 }
@@ -144,6 +135,27 @@ p + h3 {
 }
 
 
+/* Media Queries
+-------------------*/
+@media (min-width: 900px) {
+    .col-narrow {
+        width: 35%;
+        float: left;
+    }
+    .col-wide {
+        width: 62%;
+        float: left;
+        padding-left: 3%;
+    }
+}
+@media (max-width: 899px) {
+    header {
+        text-align: center;
+    }
+    .profile-img {
+        width: 200px;
+    }
+}
 
 
 
